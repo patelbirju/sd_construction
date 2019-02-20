@@ -95,7 +95,7 @@
         <div class="container">
             <div class="qualitiesSection">
                 <h1>CUSTOMER SERVICE</h1>
-                <p>We believe in googleapisreat customer service and also believe in quality work.
+                <p>We believe in great customer service and also believe in quality work.
                      We also do a great clean job so it is ready for the next tradesman.</p>
             </div>
         </div>
@@ -103,15 +103,27 @@
         <div class="container" id="estimateForm">
             <h1>Looking for an estimate?</h1>
             <form name="estimateForm" action="estimateData.php" method="POST">
-                <label for="firstName">First Name</label><br>
-                <input type="text" name="fName" id="firstName"><br>
-                <label for="lastName">Last Name</label><br>
-                <input type="text" name="lName" id="lastName"><br>
-                <label for="email">Email Address</label><br>
-                <input type="email" name="email" id="email"><br>
-                <label for="description">Project description</label><br>
-                <textarea name="description" rows="10" cols="50"></textarea><br>
-                <input type="submit" name="submitBtn">
+
+                <div class="input">
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" name="fName" id="firstName"><br>
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" name="lName" id="lastName"><br>
+                </div>
+                <div class="input">
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="email" id="email"><br>
+                </div>
+                <div class="input">
+                    <label for="description">Project description</label><br>
+                    <textarea name="description" rows="10" cols="45"></textarea><br>
+                </div>
+                
+                
+                <input class="btn btn-primary" type="submit" name="submitBtn">
 
             </form>
         </div>

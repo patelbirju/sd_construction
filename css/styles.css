@@ -1,0 +1,132 @@
+
+
+#logoHeader{
+    background-color:  #322727;
+
+    padding: 15px 0px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+#contactSection{
+    text-align: center;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3vw;
+    letter-spacing: 0px;
+    text-transform: none;
+    line-height: 1.2em; 
+}
+
+
+.container{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    
+}
+
+#superiorSection{
+    background-image: url("../images/finished.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    padding-top: 75px;
+}
+
+#superiorSectionText h2{
+    
+    text-align: center;
+    color: white;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+#videosSection{
+    padding-top: 85px;
+}
+
+.video p{
+    font-family: europa;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+    color: #1f1f1f;
+}
+.video h3{
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+
+#servicesSection{
+    text-align: left;
+    font-family: europa;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+    color: #1f1f1f;
+}
+#servicesHeader{
+    border-top: 1px solid #322727;  
+}
+
+
+.qualitiesSection{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #322727; 
+
+}
+.qualitiesSection p{
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+
+#footer{
+    background-color: #322727;
+    height: 55px;
+}
+#footer p{
+    color: white;
+    font-size: 12px;
+}
+@media screen and (max-width: 425px){
+    #contactSection h3,h2{
+        font-size: 20px;
+    }
+
+    .video{
+        letter-spacing: 2px;
+    }
+    #superiorSection{
+        padding-top: 35px;
+    }
+    #servicesSection h3{
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+}

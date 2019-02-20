@@ -106,6 +106,10 @@ img{
     line-height: 1.3em;
 }
 
+#estimateForm{
+    border-top: 1px solid #322727; 
+}
+
 #footer{
     background-color: #322727;
     height: 55px;
